@@ -1,4 +1,5 @@
 # AivyDetour
+redirect every connection on a local port
 
 Use : start with args 
 [Executable_Path or Process_Id] [Port]
