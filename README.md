@@ -1,6 +1,8 @@
 # AivyDetour
 redirect every connection on a local port
 
+This project is a Copy/Paste from SocketHook by Nameless with some modifications
+
 Use : start with args 
 [Executable_Path or Process_Id] [Port]
 
