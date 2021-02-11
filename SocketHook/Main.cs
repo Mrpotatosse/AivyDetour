@@ -27,7 +27,8 @@ namespace SocketHook
 
         public void Run(IContext context, string channelName, int redirectionPort)
         {
-            _interface.DetourInstalled(Process.GetCurrentProcess().ProcessName);
+            var process = Process.GetCurrentProcess();
+            _interface.DetourInstalled(process.ProcessName, process.Id);
 
             try
             {
